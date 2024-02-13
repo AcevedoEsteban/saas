@@ -207,7 +207,7 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@kinde-oss/kinde-auth-nextjs@^1.8.18":
+"@kinde-oss/kinde-auth-nextjs@^1.9.2":
   version "1.9.2"
   resolved "https://registry.npmjs.org/@kinde-oss/kinde-auth-nextjs/-/kinde-auth-nextjs-1.9.2.tgz"
   integrity sha512-m1IZCrKVoVCnzUSag4fXCBtQUOtE3RsjsYuhIdZBeSCBWsOkd4Sr5MD2fWwBfaoxV8kKzuQLDZzJiJd1NPXx6A==
