@@ -13,7 +13,7 @@ import Skeleton from 'react-loading-skeleton'
 import Link from 'next/link'
 import { format } from 'date-fns'
 import { Button } from './ui/button'
-import { useState } from 'react'
+import { JSXElementConstructor, Key, PromiseLikeOfReactNode, ReactElement, ReactNode, ReactPortal, useState } from 'react'
 import { getUserSubscriptionPlan } from '@/lib/stripe'
 
 interface PageProps {
@@ -57,11 +57,11 @@ const Dashboard = ({subscriptionPlan}: PageProps) => {
         <ul className='mt-8 grid grid-cols-1 gap-6 divide-y divide-zinc-200 md:grid-cols-2 lg:grid-cols-3'>
           {files
             .sort(
-              (a, b) =>
+              (a: any, b: any) =>
                 new Date(b.createdAt).getTime() -
                 new Date(a.createdAt).getTime()
             )
-            .map((file) => (
+            .map((file: { id: Key | null | undefined; name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; createdAt: string | number | Date; }) => (
               <li
                 key={file.id}
                 className='col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow transition hover:shadow-lg'>
@@ -96,7 +96,7 @@ const Dashboard = ({subscriptionPlan}: PageProps) => {
 
                   <Button
                     onClick={() =>
-                      deleteFile({ id: file.id })
+                      deleteFile({ id: file.id as string }) 
                     }
                     size='sm'
                     className='w-full'
