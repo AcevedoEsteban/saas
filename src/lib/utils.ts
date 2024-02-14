@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Codes - the SaaS for students",
-  description = "Codes is an open-source software to make chatting to your PDF files easy.",
+  title = "Codes - Get Insurances codes",
+  description = "Codes will read any pdf file and generate insurance codes for CPT and CD-10.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
