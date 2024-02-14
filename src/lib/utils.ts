@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Codes - Get Insurances codes",
-  description = "Codes will read any pdf file and generate insurance codes for CPT and CD-10.",
+  title = "inCodes - Get Insurances codes",
+  description = "inCodes will read any pdf file and generate insurance codes for CPT and CD-10.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
@@ -45,7 +45,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@joshtriedcoding"
+      creator: "@estebanacevedo",
     },
     icons,
     metadataBase: new URL('https://.vercel.app'),
