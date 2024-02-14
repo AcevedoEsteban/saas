@@ -3782,6 +3782,14 @@ pdf-parse@^1.1.1, pdf-parse@1.1.1:
     debug "^3.1.0"
     node-ensure "^0.0.0"
 
+pdfjs-dist@^4.0.379:
+  version "4.0.379"
+  resolved "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-4.0.379.tgz"
+  integrity sha512-6H0Gv1nna+wmrr3CakaKlZ4rbrL8hvGIFAgg4YcoFuGC0HC4B2DVjXEGTFjJEjLlf8nYi3C3/MYRcM5bNx0elA==
+  optionalDependencies:
+    canvas "^2.11.2"
+    path2d-polyfill "^2.0.1"
+
 pdfjs-dist@3.11.174:
   version "3.11.174"
   resolved "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz"
@@ -3999,7 +4007,7 @@ react-markdown@^8.0.7:
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
-react-pdf@^7.3.3:
+react-pdf@^7.7.0:
   version "7.7.0"
   resolved "https://registry.npmjs.org/react-pdf/-/react-pdf-7.7.0.tgz"
   integrity sha512-704ObLnRDm5lixL4e6NXNLaincBHGNLo+NGdbO3rEXE963NlNzwLxFpmKcbdXHAMQL4rYJQWb1L0w5IL6y8Osw==
