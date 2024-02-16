@@ -392,7 +392,7 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@radix-ui/react-dialog@^1.0.4":
+"@radix-ui/react-dialog@^1.0.5":
   version "1.0.5"
   resolved "https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.0.5.tgz"
   integrity sha512-GjWJX/AUpB703eEBanuBnIWdIXg6NvJFCXcNlSZk4xdszCdhrJgBoUd1cGk67vFO+WdA2pfI/plOpqz/5GUP6Q==
@@ -902,34 +902,34 @@
     "@typescript-eslint/types" "6.21.0"
     eslint-visitor-keys "^3.4.1"
 
-"@uploadthing/dropzone@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/@uploadthing/dropzone/-/dropzone-0.1.1.tgz"
-  integrity sha512-ohlnFQfNr/UmImfipVo4uiBj1HQL7dp/sWBD96iAajc6RaQuYnHATGaSaISpCjZTeoLkksuu4/LR8vU9nSzpvQ==
+"@uploadthing/dropzone@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/@uploadthing/dropzone/-/dropzone-0.1.2.tgz"
+  integrity sha512-wV074/Vu6WIpqtaLUZI8V/IU+WrcOh/PlwBnRPpnz0JmxNDruDeKcIw2nAOcYVdnX2/oZWTvx+un4WYz/l9P4Q==
   dependencies:
     attr-accept "^2.2.2"
     file-selector "^0.6.0"
 
-"@uploadthing/mime-types@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/@uploadthing/mime-types/-/mime-types-0.2.2.tgz"
-  integrity sha512-ZUo1JHOPPMZDsUw1mOhhVDIvJGlsjj6T0xJ/YJtulyJwL43S9B5pxg1cHcRuTEgjaxj7B55jiqQ6r9mDrrjH9A==
+"@uploadthing/mime-types@^0.2.2", "@uploadthing/mime-types@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/@uploadthing/mime-types/-/mime-types-0.2.3.tgz"
+  integrity sha512-K2KVt90PdEZqGQ74tUXMCOFCUPzk5UUItCHHBd6+bC3QC8b/D9glORqVl6VI4a/EbnU9rHVJuXGHWsvoyM44sg==
 
-"@uploadthing/react@^6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@uploadthing/react/-/react-6.2.2.tgz"
-  integrity sha512-fDfVooLTbC5/FM1o/chPDf5i8DRxCOeRSuRl0R6yh/jIHTdDO2kwXeM5DTaBazJmaEabh5GB+I9Rwg8nU0QdVA==
+"@uploadthing/react@^6.2.3":
+  version "6.2.3"
+  resolved "https://registry.npmjs.org/@uploadthing/react/-/react-6.2.3.tgz"
+  integrity sha512-hUnPDHQBPykcAisHqIhGaOi7BU9tjE6EP4hyXnaeVsUeWGh8VTED5+ofYiulelCwBYv+/8mDOJ9nj5WU0v6FIg==
   dependencies:
-    "@uploadthing/dropzone" "^0.1.1"
-    "@uploadthing/shared" "^6.2.0"
+    "@uploadthing/dropzone" "^0.1.2"
+    "@uploadthing/shared" "^6.3.0"
     attr-accept "^2.2.2"
     file-selector "^0.6.0"
-    tailwind-merge "^1.13.2"
+    tailwind-merge "^1.14.0"
 
-"@uploadthing/shared@^6.2.0", "@uploadthing/shared@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/@uploadthing/shared/-/shared-6.2.1.tgz"
-  integrity sha512-g/BHzRDuz7f97lEO4VR6PPIQ61YDp9sZWbohI1qi/Nts+bL6it1PyBKyQXIf9glhtfGoFO9Izb1jayO7wmxJkw==
+"@uploadthing/shared@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.npmjs.org/@uploadthing/shared/-/shared-6.3.0.tgz"
+  integrity sha512-IXh/Y8v3JUEPb+n9e92X37hZywqjDJsOq8rrfKhZRmB6bMJNJncHz3X4fqofexDB96dmB8KwizdRYTQAxZvYQg==
   dependencies:
     std-env "^3.7.0"
 
@@ -3911,7 +3911,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prisma@*, prisma@^5.3.1:
+prisma@*, prisma@^5.9.1:
   version "5.9.1"
   resolved "https://registry.npmjs.org/prisma/-/prisma-5.9.1.tgz"
   integrity sha512-Hy/8KJZz0ELtkw4FnG9MS9rNWlXcJhf98Z2QMqi0QiVMoS8PzsBkpla0/Y5hTlob8F3HeECYphBjqmBxrluUrQ==
@@ -4374,7 +4374,7 @@ slash@^3.0.0:
   resolved "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-solid-js@^1.2, solid-js@^1.7.7:
+solid-js@^1.2, solid-js@^1.7.11, solid-js@^1.7.7:
   version "1.8.14"
   resolved "https://registry.npmjs.org/solid-js/-/solid-js-1.8.14.tgz"
   integrity sha512-kDfgHBm+ROVLDVuqaXh/jYz0ZVJ29TYfVsKsgDPtNcjoyaPtOvDX2l0tVnthjLdEXr7vDTYeqEYFfMkZakDsOQ==
@@ -4631,7 +4631,7 @@ swrv@1.0.4:
   resolved "https://registry.npmjs.org/swrv/-/swrv-1.0.4.tgz"
   integrity sha512-zjEkcP8Ywmj+xOJW3lIT65ciY/4AL4e/Or7Gj0MzU3zBJNMdJiT8geVZhINavnlHRMMCcJLHhraLTAiDOTmQ9g==
 
-tailwind-merge@^1.13.2:
+tailwind-merge@^1.14.0:
   version "1.14.0"
   resolved "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-1.14.0.tgz"
   integrity sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==
@@ -4648,7 +4648,7 @@ tailwindcss-animate@^1.0.7:
   resolved "https://registry.npmjs.org/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz"
   integrity sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==
 
-tailwindcss@^3.4.1, "tailwindcss@>=3.0.0 || insiders":
+tailwindcss@*, tailwindcss@^3.4.1, "tailwindcss@>=3.0.0 || insiders":
   version "3.4.1"
   resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.1.tgz"
   integrity sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==
@@ -4904,13 +4904,13 @@ update-browserslist-db@^1.0.13:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-uploadthing@^6.0.0, uploadthing@^6.3.3:
-  version "6.3.3"
-  resolved "https://registry.npmjs.org/uploadthing/-/uploadthing-6.3.3.tgz"
-  integrity sha512-YYHgh6YUKNySRW6P6FrCjrbs3TUxydtRzpL4mmhTwYoaP30gc0Uf9LWygPl4bSQJ/1zkBmdSBbZpYdg4VV/NJw==
+uploadthing@^6.0.0, uploadthing@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.npmjs.org/uploadthing/-/uploadthing-6.4.0.tgz"
+  integrity sha512-qGK6e8Y58a3nBCTZCk/dJZiGhKHhtz752khZ41Fa7D+s5trNLVWwNfs9f6KKMC5uj2GIttmFUntBt1VtPTKPYQ==
   dependencies:
-    "@uploadthing/mime-types" "^0.2.2"
-    "@uploadthing/shared" "^6.2.1"
+    "@uploadthing/mime-types" "^0.2.3"
+    "@uploadthing/shared" "^6.3.0"
     consola "^3.2.3"
     std-env "^3.7.0"
 

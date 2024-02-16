@@ -9,13 +9,14 @@ import { cn } from "@/lib/utils"
 const Dialog = DialogPrimitive.Root
 
 const DialogTrigger = DialogPrimitive.Trigger
-
 const DialogPortal = ({
+    //@ts-ignore
   className,
   ...props
 }: DialogPrimitive.DialogPortalProps) => (
-  <DialogPrimitive.Portal className={cn(className)} {...props} />
-)
+  <DialogPrimitive.Portal className={cn(className)} {...props as any} />
+);
+
 DialogPortal.displayName = DialogPrimitive.Portal.displayName
 
 const DialogOverlay = React.forwardRef<

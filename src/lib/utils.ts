@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "inCodes - Get Insurances codes",
-  description = "inCodes will read any pdf file and generate insurance codes for CPT and CD-10.",
+  title = "Adollah - Get Insurances codes at adollah.com",
+  description = "Adollah will read any pdf file and generate insurance adollah for CPT and CD-10.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
