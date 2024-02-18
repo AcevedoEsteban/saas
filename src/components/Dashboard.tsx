@@ -24,7 +24,7 @@ const Dashboard = ({subscriptionPlan}: PageProps) => {
   const [currentlyDeletingFile, setCurrentlyDeletingFile] =
     useState<string | null>(null)
 
-  const utils = trpc.useContext()
+  const utils = trpc.useUtils()
 
   const { data: files, isLoading } =
     trpc.getUserFiles.useQuery()
@@ -52,7 +52,6 @@ const Dashboard = ({subscriptionPlan}: PageProps) => {
         <UploadButton isSubscribed={subscriptionPlan.isSubscribed} />
       </div>
 
-      {/* display all user files */}
       {files && files?.length !== 0 ? (
         <ul className='mt-8 grid grid-cols-1 gap-6 divide-y divide-zinc-200 md:grid-cols-2 lg:grid-cols-3'>
           {files
