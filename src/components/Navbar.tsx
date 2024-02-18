@@ -48,7 +48,7 @@ const Navbar = () => {
                   className={buttonVariants({
                     size: 'sm',
                   })}>
-                  Get started{' '}
+                  Sign up{' '}
                   <ArrowRight className='ml-1.5 h-5 w-5' />
                 </RegisterLink>
               </>
