@@ -53,7 +53,7 @@ const onUploadComplete = async ({
       uploadStatus: 'PROCESSING',
     },
   })
-
+https://utfs.io/
   try {
     const response = await fetch(
       `https://uploadthing-prod.s3.us-west-2.amazonaws.com/${file.key}`
