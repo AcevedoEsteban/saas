@@ -92,7 +92,6 @@ https://utfs.io/
       })
     }
 
-    // vectorize and index entire document
     const pinecone = await getPineconeClient()
     const pineconeIndex = pinecone.Index('adollah')
 
