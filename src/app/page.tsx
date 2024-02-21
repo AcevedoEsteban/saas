@@ -19,9 +19,7 @@ export default function Home() {
           in seconds.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-          Adollah allows you to have conversations with any
-          PDF document. Simply upload your file and start
-          asking questions right away.
+        Adollah reads PDF files in order to find CPT codes and ICD-10 codes.
         </p>
 
         <Link
