@@ -91,7 +91,7 @@ const Messages = ({ fileId }: MessagesProps) => {
               />
             )
         })
-      ) : isLoading ? (
+     ) : isLoading ? (
         <div className='w-full flex flex-col gap-2'>
           <Skeleton className='h-16' />
           <Skeleton className='h-16' />

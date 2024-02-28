@@ -19,7 +19,7 @@ export default function Home() {
           in seconds.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-        Adollah reads PDF files in order to find CPT codes and ICD-10 codes.
+        Adollah reads PDF files in order to find ICD-10, HCPCS, and CPT codes.
         </p>
 
         <Link
